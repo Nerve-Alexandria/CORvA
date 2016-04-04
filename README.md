@@ -1,6 +1,5 @@
 # CORvA
 ==================
-
 Sistema de control de archivo interno de anime.
 
 ## ¿Por que?
