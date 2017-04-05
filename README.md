@@ -1,6 +1,6 @@
 CORvA
 ========================
-Sistema de control de archivo interno de anime.
+Sistema de control de archivo interno de anime. Programa para gestionar todo el anime y manga de un dispotivo desde el mismo centro.
 
 ## ¿Por que?
 > Tuve la necesidad de gestionar una amplia red de datos sobre anime
