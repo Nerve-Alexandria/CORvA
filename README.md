@@ -28,3 +28,10 @@ Sistema de control de archivo interno de anime. Programa para gestionar todo el 
 Proximamente ...
 
 
+## Acreditaciones & Licencias
+
+* [VisualPlus][1] de [DarkByte7][2]
+
+[1]: https://github.com/DarkByte7/VisualPlus
+[2]: https://github.com/DarkByte7
+
