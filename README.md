@@ -3,7 +3,7 @@ CORvA
 Sistema de control de archivo interno de anime. Programa para gestionar todo el anime y manga de un dispotivo desde el mismo centro.
 
 ## ¿Por que?
-> Tuve la necesidad de gestionar una amplia red de datos sobre anime
+> Tuve la necesidad de gestionar una amplia red de datos de anime
 
 > por lo que necesitaba una herramienta para administrar tantos datos.
 
@@ -13,7 +13,6 @@ Sistema de control de archivo interno de anime. Programa para gestionar todo el 
 
 > 2.- Administracion de una zona, con futuro pensamiento en ser escalable.
 
-> 3.- Aprender del codigo fuente para administrar datos(Si es de tu interes).
 
 ## Caracteristicas:
 
@@ -28,10 +27,18 @@ Sistema de control de archivo interno de anime. Programa para gestionar todo el 
 Proximamente ...
 
 
-## Acreditaciones & Licencias
+## Acreditaciones
 
 * [VisualPlus][1] de [DarkByte7][2]
 
+
+
+## Licencia
+
+CORvA esta licenciada bajo [GNU General Public License v3][3].
+
+---
+
 [1]: https://github.com/DarkByte7/VisualPlus
 [2]: https://github.com/DarkByte7
-
+[3]: https://www.gnu.org/licenses/gpl-3.0.html
