@@ -36,9 +36,11 @@ namespace corva {
 		}
 	private: VisualPlus::Toolkit::Controls::Interactivity::VisualButton^  visualButton1;
 	private: VisualPlus::Toolkit::Controls::Interactivity::VisualButton^  BtnCerrar;
+	private: VisualPlus::Toolkit::Controls::Interactivity::VisualButton^  BtnMinimizar;
 
-	private: VisualPlus::Toolkit::Controls::Interactivity::VisualButton^  visualButton3;
-	private: VisualPlus::Toolkit::Controls::Interactivity::VisualButton^  visualButton4;
+
+	private: VisualPlus::Toolkit::Controls::Interactivity::VisualButton^  BtnMaximizar;
+
 
 
 
@@ -84,8 +86,8 @@ namespace corva {
 			VisualPlus::Structure::Border^  border4 = (gcnew VisualPlus::Structure::Border());
 			this->visualButton1 = (gcnew VisualPlus::Toolkit::Controls::Interactivity::VisualButton());
 			this->BtnCerrar = (gcnew VisualPlus::Toolkit::Controls::Interactivity::VisualButton());
-			this->visualButton3 = (gcnew VisualPlus::Toolkit::Controls::Interactivity::VisualButton());
-			this->visualButton4 = (gcnew VisualPlus::Toolkit::Controls::Interactivity::VisualButton());
+			this->BtnMinimizar = (gcnew VisualPlus::Toolkit::Controls::Interactivity::VisualButton());
+			this->BtnMaximizar = (gcnew VisualPlus::Toolkit::Controls::Interactivity::VisualButton());
 			this->SuspendLayout();
 			// 
 			// visualButton1
@@ -261,22 +263,22 @@ namespace corva {
 			this->BtnCerrar->TextRenderingHint = System::Drawing::Text::TextRenderingHint::ClearTypeGridFit;
 			this->BtnCerrar->Click += gcnew System::EventHandler(this, &corva::BtnCerrar_Click);
 			// 
-			// visualButton3
+			// BtnMinimizar
 			// 
-			this->visualButton3->Background = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(238)), static_cast<System::Int32>(static_cast<System::Byte>(238)),
+			this->BtnMinimizar->Background = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(238)), static_cast<System::Int32>(static_cast<System::Byte>(238)),
 				static_cast<System::Int32>(static_cast<System::Byte>(238)));
-			this->visualButton3->BackgroundDisabled = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(238)),
+			this->BtnMinimizar->BackgroundDisabled = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(238)),
 				static_cast<System::Int32>(static_cast<System::Byte>(238)), static_cast<System::Int32>(static_cast<System::Byte>(238)));
-			this->visualButton3->BackgroundStateColor = System::Drawing::Color::Empty;
-			this->visualButton3->Border->Color = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(180)),
+			this->BtnMinimizar->BackgroundStateColor = System::Drawing::Color::Empty;
+			this->BtnMinimizar->Border->Color = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(180)),
 				static_cast<System::Int32>(static_cast<System::Byte>(180)), static_cast<System::Int32>(static_cast<System::Byte>(180)));
-			this->visualButton3->Border->HoverColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(120)),
+			this->BtnMinimizar->Border->HoverColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(120)),
 				static_cast<System::Int32>(static_cast<System::Byte>(183)), static_cast<System::Int32>(static_cast<System::Byte>(230)));
-			this->visualButton3->Border->HoverVisible = true;
-			this->visualButton3->Border->Rounding = 6;
-			this->visualButton3->Border->Thickness = 1;
-			this->visualButton3->Border->Type = VisualPlus::Enumerators::ShapeType::Rounded;
-			this->visualButton3->Border->Visible = true;
+			this->BtnMinimizar->Border->HoverVisible = true;
+			this->BtnMinimizar->Border->Rounding = 6;
+			this->BtnMinimizar->Border->Thickness = 1;
+			this->BtnMinimizar->Border->Type = VisualPlus::Enumerators::ShapeType::Rounded;
+			this->BtnMinimizar->Border->Visible = true;
 			gradient9->Angle = 0;
 			gradient9->Colors = gcnew cli::array< System::Drawing::Color >(3)
 			{
@@ -313,16 +315,16 @@ namespace corva {
 							static_cast<System::Int32>(static_cast<System::Byte>(243)), static_cast<System::Int32>(static_cast<System::Byte>(243)))
 			};
 			gradient12->Positions = gcnew cli::array< System::Single >(3) { 0, 0.5F, 1 };
-			this->visualButton3->ControlBrushCollection = gcnew cli::array< VisualPlus::Structure::Gradient^  >(4)
+			this->BtnMinimizar->ControlBrushCollection = gcnew cli::array< VisualPlus::Structure::Gradient^  >(4)
 			{
 				gradient9, gradient10,
 					gradient11, gradient12
 			};
-			this->visualButton3->DisabledGradient = gradient12;
-			this->visualButton3->EnabledGradient = gradient9;
-			this->visualButton3->ForeColorDisabled = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(131)),
+			this->BtnMinimizar->DisabledGradient = gradient12;
+			this->BtnMinimizar->EnabledGradient = gradient9;
+			this->BtnMinimizar->ForeColorDisabled = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(131)),
 				static_cast<System::Int32>(static_cast<System::Byte>(129)), static_cast<System::Int32>(static_cast<System::Byte>(129)));
-			this->visualButton3->HoverGradient = gradient10;
+			this->BtnMinimizar->HoverGradient = gradient10;
 			border3->Color = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(180)), static_cast<System::Int32>(static_cast<System::Byte>(180)),
 				static_cast<System::Int32>(static_cast<System::Byte>(180)));
 			border3->HoverColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(120)), static_cast<System::Int32>(static_cast<System::Byte>(183)),
@@ -332,37 +334,37 @@ namespace corva {
 			border3->Thickness = 1;
 			border3->Type = VisualPlus::Enumerators::ShapeType::Rounded;
 			border3->Visible = false;
-			this->visualButton3->Image->Border = border3;
-			this->visualButton3->Image->Image = (cli::safe_cast<System::Drawing::Bitmap^>(resources->GetObject(L"resource.Image2")));
-			this->visualButton3->Image->Point = System::Drawing::Point(1, 2);
-			this->visualButton3->Image->Size = System::Drawing::Size(24, 24);
-			this->visualButton3->Image->Visible = false;
-			this->visualButton3->Location = System::Drawing::Point(933, 0);
-			this->visualButton3->MouseState = VisualPlus::Enumerators::MouseStates::Normal;
-			this->visualButton3->Name = L"visualButton3";
-			this->visualButton3->PressedGradient = gradient11;
-			this->visualButton3->Size = System::Drawing::Size(27, 28);
-			this->visualButton3->TabIndex = 2;
-			this->visualButton3->Text = L"_";
-			this->visualButton3->TextImageRelation = System::Windows::Forms::TextImageRelation::Overlay;
-			this->visualButton3->TextRenderingHint = System::Drawing::Text::TextRenderingHint::ClearTypeGridFit;
+			this->BtnMinimizar->Image->Border = border3;
+			this->BtnMinimizar->Image->Image = (cli::safe_cast<System::Drawing::Bitmap^>(resources->GetObject(L"resource.Image2")));
+			this->BtnMinimizar->Image->Point = System::Drawing::Point(1, 2);
+			this->BtnMinimizar->Image->Size = System::Drawing::Size(24, 24);
+			this->BtnMinimizar->Image->Visible = false;
+			this->BtnMinimizar->Location = System::Drawing::Point(933, 0);
+			this->BtnMinimizar->MouseState = VisualPlus::Enumerators::MouseStates::Normal;
+			this->BtnMinimizar->Name = L"BtnMinimizar";
+			this->BtnMinimizar->PressedGradient = gradient11;
+			this->BtnMinimizar->Size = System::Drawing::Size(27, 28);
+			this->BtnMinimizar->TabIndex = 2;
+			this->BtnMinimizar->Text = L"_";
+			this->BtnMinimizar->TextImageRelation = System::Windows::Forms::TextImageRelation::Overlay;
+			this->BtnMinimizar->TextRenderingHint = System::Drawing::Text::TextRenderingHint::ClearTypeGridFit;
 			// 
-			// visualButton4
+			// BtnMaximizar
 			// 
-			this->visualButton4->Background = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(238)), static_cast<System::Int32>(static_cast<System::Byte>(238)),
+			this->BtnMaximizar->Background = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(238)), static_cast<System::Int32>(static_cast<System::Byte>(238)),
 				static_cast<System::Int32>(static_cast<System::Byte>(238)));
-			this->visualButton4->BackgroundDisabled = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(238)),
+			this->BtnMaximizar->BackgroundDisabled = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(238)),
 				static_cast<System::Int32>(static_cast<System::Byte>(238)), static_cast<System::Int32>(static_cast<System::Byte>(238)));
-			this->visualButton4->BackgroundStateColor = System::Drawing::Color::Empty;
-			this->visualButton4->Border->Color = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(180)),
+			this->BtnMaximizar->BackgroundStateColor = System::Drawing::Color::Empty;
+			this->BtnMaximizar->Border->Color = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(180)),
 				static_cast<System::Int32>(static_cast<System::Byte>(180)), static_cast<System::Int32>(static_cast<System::Byte>(180)));
-			this->visualButton4->Border->HoverColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(120)),
+			this->BtnMaximizar->Border->HoverColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(120)),
 				static_cast<System::Int32>(static_cast<System::Byte>(183)), static_cast<System::Int32>(static_cast<System::Byte>(230)));
-			this->visualButton4->Border->HoverVisible = true;
-			this->visualButton4->Border->Rounding = 6;
-			this->visualButton4->Border->Thickness = 1;
-			this->visualButton4->Border->Type = VisualPlus::Enumerators::ShapeType::Rounded;
-			this->visualButton4->Border->Visible = true;
+			this->BtnMaximizar->Border->HoverVisible = true;
+			this->BtnMaximizar->Border->Rounding = 6;
+			this->BtnMaximizar->Border->Thickness = 1;
+			this->BtnMaximizar->Border->Type = VisualPlus::Enumerators::ShapeType::Rounded;
+			this->BtnMaximizar->Border->Visible = true;
 			gradient13->Angle = 0;
 			gradient13->Colors = gcnew cli::array< System::Drawing::Color >(3)
 			{
@@ -399,16 +401,16 @@ namespace corva {
 							static_cast<System::Int32>(static_cast<System::Byte>(243)), static_cast<System::Int32>(static_cast<System::Byte>(243)))
 			};
 			gradient16->Positions = gcnew cli::array< System::Single >(3) { 0, 0.5F, 1 };
-			this->visualButton4->ControlBrushCollection = gcnew cli::array< VisualPlus::Structure::Gradient^  >(4)
+			this->BtnMaximizar->ControlBrushCollection = gcnew cli::array< VisualPlus::Structure::Gradient^  >(4)
 			{
 				gradient13, gradient14,
 					gradient15, gradient16
 			};
-			this->visualButton4->DisabledGradient = gradient16;
-			this->visualButton4->EnabledGradient = gradient13;
-			this->visualButton4->ForeColorDisabled = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(131)),
+			this->BtnMaximizar->DisabledGradient = gradient16;
+			this->BtnMaximizar->EnabledGradient = gradient13;
+			this->BtnMaximizar->ForeColorDisabled = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(131)),
 				static_cast<System::Int32>(static_cast<System::Byte>(129)), static_cast<System::Int32>(static_cast<System::Byte>(129)));
-			this->visualButton4->HoverGradient = gradient14;
+			this->BtnMaximizar->HoverGradient = gradient14;
 			border4->Color = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(180)), static_cast<System::Int32>(static_cast<System::Byte>(180)),
 				static_cast<System::Int32>(static_cast<System::Byte>(180)));
 			border4->HoverColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(120)), static_cast<System::Int32>(static_cast<System::Byte>(183)),
@@ -418,28 +420,29 @@ namespace corva {
 			border4->Thickness = 1;
 			border4->Type = VisualPlus::Enumerators::ShapeType::Rounded;
 			border4->Visible = false;
-			this->visualButton4->Image->Border = border4;
-			this->visualButton4->Image->Image = (cli::safe_cast<System::Drawing::Bitmap^>(resources->GetObject(L"resource.Image3")));
-			this->visualButton4->Image->Point = System::Drawing::Point(1, 2);
-			this->visualButton4->Image->Size = System::Drawing::Size(24, 24);
-			this->visualButton4->Image->Visible = false;
-			this->visualButton4->Location = System::Drawing::Point(966, 0);
-			this->visualButton4->MouseState = VisualPlus::Enumerators::MouseStates::Normal;
-			this->visualButton4->Name = L"visualButton4";
-			this->visualButton4->PressedGradient = gradient15;
-			this->visualButton4->Size = System::Drawing::Size(27, 28);
-			this->visualButton4->TabIndex = 2;
-			this->visualButton4->Text = L"[ ]";
-			this->visualButton4->TextImageRelation = System::Windows::Forms::TextImageRelation::Overlay;
-			this->visualButton4->TextRenderingHint = System::Drawing::Text::TextRenderingHint::ClearTypeGridFit;
+			this->BtnMaximizar->Image->Border = border4;
+			this->BtnMaximizar->Image->Image = (cli::safe_cast<System::Drawing::Bitmap^>(resources->GetObject(L"resource.Image3")));
+			this->BtnMaximizar->Image->Point = System::Drawing::Point(1, 2);
+			this->BtnMaximizar->Image->Size = System::Drawing::Size(24, 24);
+			this->BtnMaximizar->Image->Visible = false;
+			this->BtnMaximizar->Location = System::Drawing::Point(966, 0);
+			this->BtnMaximizar->MouseState = VisualPlus::Enumerators::MouseStates::Normal;
+			this->BtnMaximizar->Name = L"BtnMaximizar";
+			this->BtnMaximizar->PressedGradient = gradient15;
+			this->BtnMaximizar->Size = System::Drawing::Size(27, 28);
+			this->BtnMaximizar->TabIndex = 2;
+			this->BtnMaximizar->Text = L"[ ]";
+			this->BtnMaximizar->TextImageRelation = System::Windows::Forms::TextImageRelation::Overlay;
+			this->BtnMaximizar->TextRenderingHint = System::Drawing::Text::TextRenderingHint::ClearTypeGridFit;
+			this->BtnMaximizar->Click += gcnew System::EventHandler(this, &corva::BtnMaximizar_Click);
 			// 
 			// corva
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
 			this->ClientSize = System::Drawing::Size(1026, 540);
-			this->Controls->Add(this->visualButton4);
-			this->Controls->Add(this->visualButton3);
+			this->Controls->Add(this->BtnMaximizar);
+			this->Controls->Add(this->BtnMinimizar);
 			this->Controls->Add(this->BtnCerrar);
 			this->Controls->Add(this->visualButton1);
 			this->FormBorderStyle = System::Windows::Forms::FormBorderStyle::None;
@@ -458,5 +461,9 @@ namespace corva {
 	{
 		Application::Exit();
 	}
-	};
+	private: System::Void BtnMaximizar_Click(System::Object^  sender, System::EventArgs^  e)
+	{
+		
+	}
+};
 }
