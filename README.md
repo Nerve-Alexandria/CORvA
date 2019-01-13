@@ -9,7 +9,7 @@ Sistema de control de archivo interno de anime. Programa para gestionar todos lo
 
 ## ¿Que utilidad le podria dar?
 
-> 1.- Control de todo tu anime en una app(Nativa windows).
+> 1.- Control de todo tu anime en una app(Nativa windows)(Tracket).
 
 > 2.- Administracion de una zona, con futuro pensamiento en ser escalable.
 
