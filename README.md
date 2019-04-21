@@ -1,18 +1,6 @@
-CORvA [Pausado Indefinidamente]
+CORvA [Pausado]
 ========================
 Sistema de control de archivo interno de anime. Programa para gestionar todos los datos de anime y manga de un dispotivo desde el mismo centro. x.x
-
-## ¿Por que?
-> Tuve la necesidad de gestionar una amplia red de datos de datos anime
-
-> por lo que necesitaba una herramienta para administrar tantos datos.
-
-## ¿Que utilidad le podria dar?
-
-> 1.- Control de todo tu anime en una app(Nativa windows)(Tracket).
-
-> 2.- Administracion de una zona, con futuro pensamiento en ser escalable.
-
 
 ## Caracteristicas:
 
