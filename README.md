@@ -1,4 +1,4 @@
-CORvA [Pausado]
+CORvA [Descontinuado]
 ========================
 Sistema de control de archivo interno de anime. Programa para gestionar todos los datos de anime y manga de un dispotivo desde el mismo centro. x.x
 
