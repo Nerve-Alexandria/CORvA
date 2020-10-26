@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated />
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="48562499-b1e1-4d0a-9b5a-b54969cf676b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CODE_OF_CONDUCT.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CONTRIBUTING.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CORvA/CORvA.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CORvA/CORvA/CORvA.vcxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CORvA/CORvA/CORvA.vcxproj.filters" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ISSUE_TEMPLATE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Resources/img/descarga.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Resources/img/descarga2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Resources/img/descarga3.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Resources/img/imagenes.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Resources/img/imagenes2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Resources/img/imagenes3.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Resources/img/sinopsis.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Resources/img/sinopsis2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Resources/img/sinopsis3.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Resources/img/tecnica.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Resources/img/tecnica2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Resources/img/tecnica3.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../corva/corva/corva.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../corva/corva/corva.h" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1jQU7FJik2WCpLlfvz1C7ehbfFv" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.first.check.clang-format" value="false" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="48562499-b1e1-4d0a-9b5a-b54969cf676b" name="Default Changelist" comment="" />
+      <created>1603735639728</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603735639728</updated>
+      <workItem from="1603735642023" duration="2000" />
+    </task>
+    <servers />
+  </component>
+</project>
